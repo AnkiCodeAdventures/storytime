@@ -1,0 +1,33 @@
+.emailContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.emailInput {
+  width: 370px;
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0.35);
+  color: white;
+  padding-left: 1.6em;
+  border-radius: 0.4em;
+  font-size: 10px;
+  border: solid grey 1px;
+  margin-right: 0.8em;
+  padding-top: 7px;
+}
+
+.emailInput::placeholder {
+  color: rgb(205, 205, 205);
+  font-size: 1.5em;
+}
+
+.emailButton {
+  background-color: rgb(231, 1, 1);
+  color: white;
+  width: 200px;
+  height: 54px;
+  border-radius: 4px;
+  font-size: 23px;
+  font-weight: 550;
+  border: none;
+}
