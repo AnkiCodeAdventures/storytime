@@ -6,15 +6,7 @@ function Section1() {
   return (
     <div>
       <section className={styles.section1}>
-        {/* <Nav /> */}
-        {/* <Typography.MainHeading responsive={true} style={{ fontSize: 50 }}>
-          Hi from the otsddfsfa
-        </Typography.MainHeading> */}
-        {/* <Heading/> */}
-        {/* <Text /> */}
-        {/* <Email/> */}
-        {/* <Button/> */}
-        {/* <Divider/> */}
+        <Nav />
       </section>
     </div>
   );
