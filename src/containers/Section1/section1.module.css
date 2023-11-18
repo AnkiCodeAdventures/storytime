@@ -1,6 +1,5 @@
 .section1 {
   width: 100%;
-  height: 700px;
   background-image: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.85) 0,
@@ -11,7 +10,25 @@
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
-  color: white;
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
+}
+
+.main {
+  height: 600px;
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1370px;
+  margin: 0 auto;
+}
+
+.membershipContainer {
+  flex-basis: 87%;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  gap: 30px;
 }
