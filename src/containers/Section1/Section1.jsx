@@ -11,7 +11,7 @@ function Section1() {
         <main className={styles.main}>
           <div className={styles.membershipContainer}>
             <Typography.MainHeading>
-              Laughter. tears. Thrill. Get it all on Netflix.
+              Laughter. Tears. Thrill. Get it all on Netflix.
             </Typography.MainHeading>
 
             <Typography.Subtitle>

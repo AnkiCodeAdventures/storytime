@@ -20,3 +20,11 @@
   border-radius: 4px;
   font-size: 23px;
 }
+
+@media (max-width: 600px) {
+  .buttonLG {
+    width: 148px;
+    height: 48px;
+    font-size: 18px;
+  }
+}

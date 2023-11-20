@@ -6,7 +6,7 @@
   justify-content: center;
 }
 .emailInput {
-  width: 370px;
+  flex-basis: 370px;
   height: 55px;
   background-color: rgba(0, 0, 0, 0.35);
   color: white;
@@ -20,4 +20,22 @@
 .emailInput::placeholder {
   color: rgb(205, 205, 205);
   font-size: 15px;
+}
+
+@media (max-width: 740px) {
+  .emailInput {
+    flex-basis: 57%;
+  }
+}
+
+@media (max-width: 600px) {
+  .emailContainer {
+    flex-flow: row wrap;
+    height: 130px;
+  }
+  .emailInput {
+    height: 48px;
+    flex-basis: 90%;
+    margin-bottom: 15px;
+  }
 }
