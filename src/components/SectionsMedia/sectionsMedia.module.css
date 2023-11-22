@@ -1,0 +1,93 @@
+.textContainer {
+  text-align: center;
+}
+
+.tvContainer {
+  position: relative;
+}
+
+.tvImage {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: auto;
+}
+
+.videoContainer {
+  width: 100%;
+  height: auto;
+}
+
+.tvVideo {
+  position: absolute;
+  z-index: 1;
+  width: 72.7%;
+  height: auto;
+  top: 20%;
+  left: 13.2%;
+}
+
+/* section3 styles */
+
+.animationContainerBox {
+  flex-basis: 100%;
+}
+
+.animationContainer {
+  position: relative;
+  z-index: 5;
+}
+
+.animationImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.animationBox {
+  position: relative;
+  margin: 0 auto;
+  z-index: 10;
+  width: 69%;
+  bottom: 18vmin;
+  min-width: 270px;
+  height: 60px;
+  border: gray solid 2px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  /* justify-content: space-between; */
+  align-items: center;
+  overflow: hidden;
+}
+.boxshotContainer {
+  width: 35px;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+
+.animationTextContainer {
+  flex-grow: 1;
+  height: 43px;
+  text-align: left;
+}
+
+.gifContainer {
+  width: 50px;
+}
+
+.boxshotImage {
+  width: 100%;
+  height: auto;
+}
+
+/* .animation-box .animation-text-container p:last-child {
+  font-size: 0.85em;
+  color: rgb(93 156 255);
+} */
+
+.gifImage {
+  width: 100%;
+  height: auto;
+}

@@ -17,9 +17,25 @@ Typography.Subtitle = (props) => {
 };
 
 Typography.Text = (props) => {
-  return <h3 className={styles.text}>{props.children}</h3>;
+  return <p className={styles.text}>{props.children}</p>;
+};
+
+Typography.Caption = (props) => {
+  return <p className={styles.caption}>{props.children}</p>;
+};
+
+Typography.SubCaption = (props) => {
+  return (
+    <p style={props.style} className={styles.subCaption}>
+      {props.children}
+    </p>
+  );
 };
 
 Typography.MainHeading.displayName = "Main Heading";
+Typography.Subtitle.displayName = "Subtitle";
+Typography.Text.displayName = "Text";
+Typography.Caption.displayName = "Caption";
+Typography.SubCaption.displayName = "Sub Caption";
 
 export default Typography;

@@ -2,6 +2,7 @@ import Nav from "../../components/Nav/Nav";
 import styles from "./section1.module.css";
 import Typography from "../../components/Typography/Typography";
 import Email from "../../components/Email/Email";
+import Divider from "../../components/Divider/Divider";
 
 function Section1() {
   return (
@@ -22,6 +23,7 @@ function Section1() {
           </div>
         </main>
       </section>
+      <Divider />
     </div>
   );
 }
