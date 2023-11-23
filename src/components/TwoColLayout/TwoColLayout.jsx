@@ -10,7 +10,7 @@ function TwoColLayout(props) {
         </Typography.MainHeading>
         <Typography.Subtitle>{props.subtext}</Typography.Subtitle>
       </div>
-      {props.media}
+      <div className={styles.mediaContainer}>{props.media}</div>
     </section>
   );
 }

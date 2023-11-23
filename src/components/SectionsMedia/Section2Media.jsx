@@ -2,7 +2,7 @@ import styles from "./sectionsMedia.module.css";
 
 function Section2Media(props) {
   return (
-    <div className={styles.tvContainer}>
+    <div>
       <img className={styles.tvImage} src={props.imagePath} alt="TV" />
       <div className={styles.videContainer}>
         <video

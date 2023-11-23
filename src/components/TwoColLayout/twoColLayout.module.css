@@ -6,10 +6,17 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .textContainer {
   text-align: center;
+  flex-basis: 100%;
+}
+
+.mediaContainer {
+  position: relative;
+  flex-basis: 100%;
 }
 
 .tvContainer {
@@ -35,4 +42,23 @@
   height: auto;
   top: 20%;
   left: 13.2%;
+}
+
+@media (min-width: 960px) {
+  .section {
+    display: flex;
+    min-height: auto;
+    padding: 70px 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .textContainer {
+    flex-basis: 50%;
+    text-align: left;
+  }
+
+  .mediaContainer {
+    flex-basis: 50%;
+  }
 }
