@@ -11,8 +11,8 @@ function Section2() {
           players and more."
         media={
           <Section2Media
-            imagePath="/src/assets/tv.png"
-            videoPath="/src/assets/video-tv-in-0819.m4v"
+            imagePath="/assets/tv.png"
+            videoPath="/assets/video-tv-in-0819.m4v"
           />
         }
       />

@@ -10,8 +10,8 @@ function Section4() {
         subtext="Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV."
         media={
           <Section2Media
-            imagePath="/src/assets/device-pile-in.png"
-            videoPath="/src/assets/video-devices-in.m4v"
+            imagePath="/assets/device-pile-in.png"
+            videoPath="/assets/video-devices-in.m4v"
             videoStyle={{ width: "64.2%", left: "16.2%", top: "8%" }}
           />
         }

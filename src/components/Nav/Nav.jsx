@@ -8,7 +8,7 @@ function Nav() {
       <div className={styles.logo}>
         <img
           className={styles.image}
-          src="/src/assets/Netflix_Logo_RGB.png"
+          src="/assets/Netflix_Logo_RGB.png"
           alt="Netflix logo"
         />
       </div>

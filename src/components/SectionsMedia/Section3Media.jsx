@@ -6,14 +6,14 @@ function Section3Media() {
     <div className={styles.animationContainer}>
       <img
         className={styles.animationImage}
-        src="/src/assets/mobile-0819.jpg"
+        src="/assets/mobile-0819.jpg"
         alt="girl image"
       />
       <div className={styles.animationBox}>
         <div className={styles.boxshotContainer}>
           <img
             className={styles.boxshotImage}
-            src="/src/assets/boxshot.png"
+            src="/assets/boxshot.png"
             alt="animation"
           />
         </div>
@@ -26,7 +26,7 @@ function Section3Media() {
         <div className={styles.gifContainer}>
           <img
             className={styles.gifImage}
-            src="/src/assets/download-icon.gif"
+            src="/assets/download-icon.gif"
             alt="animation-gif"
           />
         </div>
