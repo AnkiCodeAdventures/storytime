@@ -48,17 +48,22 @@
   .section {
     display: flex;
     min-height: auto;
-    padding: 70px 30px;
+    gap: 10%;
+    padding: 70px 50px;
     max-width: 1200px;
     margin: 0 auto;
   }
 
   .textContainer {
-    flex-basis: 50%;
+    flex-basis: 45%;
     text-align: left;
   }
 
   .mediaContainer {
-    flex-basis: 50%;
+    flex-basis: 45%;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
   }
 }

@@ -9,6 +9,7 @@ function Section3() {
         mainText="Download your shows to watch offline"
         subtext="Save your favourites easily and always have something to watch."
         media={<Section3Media />}
+        reverse
       />
       <Divider />
     </div>
