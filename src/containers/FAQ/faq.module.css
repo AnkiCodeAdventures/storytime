@@ -1,0 +1,10 @@
+.faq {
+  height: 100%;
+  min-height: 560px;
+  padding: 50px 25px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
