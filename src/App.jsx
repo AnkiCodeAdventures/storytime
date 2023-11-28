@@ -1,5 +1,6 @@
 import "./App.css";
 import Faq from "./containers/FAQ/FAQ";
+import Footer from "./containers/Footer/Footer";
 import Section1 from "./containers/Section1/Section1";
 import Section2 from "./containers/Section2/Section2";
 import Section3 from "./containers/Section3/Section3";
@@ -15,6 +16,7 @@ function App() {
       <Section4 />
       <Section5 />
       <Faq />
+      <Footer />
     </>
   );
 }

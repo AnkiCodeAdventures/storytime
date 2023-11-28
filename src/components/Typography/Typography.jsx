@@ -21,7 +21,11 @@ Typography.Text = (props) => {
 };
 
 Typography.Caption = (props) => {
-  return <p className={styles.caption}>{props.children}</p>;
+  return (
+    <p className={styles.caption} style={props.style}>
+      {props.children}
+    </p>
+  );
 };
 
 Typography.SubCaption = (props) => {

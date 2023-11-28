@@ -1,0 +1,36 @@
+.footer {
+  height: 476px;
+  padding: 2.5rem;
+  color: rgb(175 175 175);
+  margin: 0 auto;
+}
+
+.listContainer {
+  display: flex;
+  flex-flow: row wrap;
+  text-decoration: underline;
+  padding: 20px 0;
+}
+
+a {
+  color: rgb(175 175 175);
+}
+
+.listContainer li {
+  display: block;
+  width: fit-content;
+  flex-basis: 50%;
+  list-style-type: none;
+  height: 35px;
+}
+
+@media (min-width: 960px) {
+  .footer {
+    height: 400px;
+    max-width: 1200px;
+  }
+
+  .listContainer li {
+    flex-basis: 25%;
+  }
+}
