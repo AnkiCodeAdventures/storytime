@@ -13,10 +13,15 @@ function Accordion(props) {
     <div>
       <div className={styles.accordion}>
         <button className={styles.question} onClick={handleClick}>
-          <Typography.Subtitle>{props.text}</Typography.Subtitle>
+          <Typography.Subtitle>{props.question}</Typography.Subtitle>
+          <img
+            className={`${styles.plus} ${opened ? styles.cross : ""}`}
+            src="/public/assets/cross.png"
+            alt="expand"
+          />
         </button>
         <div
-          className={`${styles.expandedBox} ${opened ? styles.collapse : ""}`}
+          className={`${styles.expandedBox} ${opened ? "" : styles.collapse}`}
         >
           <Typography.Subtitle>{props.children}</Typography.Subtitle>
         </div>

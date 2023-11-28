@@ -8,3 +8,15 @@
   text-align: center;
   margin-bottom: 20px;
 }
+
+.email {
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 960px) {
+  .faq {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}

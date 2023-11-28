@@ -4,7 +4,7 @@ import styles from "./email.module.css";
 
 function Email() {
   return (
-    <div>
+    <div className={styles.emailBlock}>
       <Typography.Text>
         Ready to watch? Enter your email to create or restart your membership.
       </Typography.Text>
