@@ -16,7 +16,7 @@ function Accordion(props) {
           <Typography.Subtitle>{props.question}</Typography.Subtitle>
           <img
             className={`${styles.plus} ${opened ? styles.cross : ""}`}
-            src="/public/assets/cross.png"
+            src="/assets/cross.png"
             alt="expand"
           />
         </button>
