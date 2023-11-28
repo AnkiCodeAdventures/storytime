@@ -6,10 +6,23 @@
   border-radius: 4px;
   text-align: center;
   font-size: 16px;
+  padding-left: 15px;
+}
+.wrapper {
+  position: relative;
+}
+
+.icon {
+  filter: invert(1);
+  position: absolute;
+  top: 8px;
+  left: 8px;
 }
 
 @media (max-width: 600px) {
   .language {
-    width: 17px;
+    width: 60px;
+    margin-right: 10px;
+    padding-left: 40px;
   }
 }
