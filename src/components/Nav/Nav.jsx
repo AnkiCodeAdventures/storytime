@@ -1,8 +1,11 @@
+import { useAuth0 } from "@auth0/auth0-react";
 import Button from "../Button/Button";
 import LanguageOption from "../LanguageOption/LanguageOption";
 import styles from "./nav.module.css";
 
 function Nav() {
+  const { loginWithRedirect, isAuthenticated, logout } = useAuth0();
+
   return (
     <nav className={styles.navigation}>
       <div className={styles.logo}>
@@ -14,7 +17,10 @@ function Nav() {
       </div>
       <div className={styles.buttonsContainer}>
         <LanguageOption />
-        <Button text="Sign In" />
+        <Button
+          text={isAuthenticated ? "Log out" : "Sign In"}
+          onClick={isAuthenticated ? logout : loginWithRedirect}
+        />
       </div>
     </nav>
   );
