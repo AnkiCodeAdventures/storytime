@@ -12,11 +12,11 @@ function Section1() {
         <main className={styles.main}>
           <div className={styles.membershipContainer}>
             <Typography.MainHeading>
-              Laughter. Tears. Thrill. Get it all on Netflix.
+              Laughter. Tears. Thrill. Get it all on Storytime.
             </Typography.MainHeading>
 
             <Typography.Subtitle>
-              Endless entertainment starts at just ₹ 149. Cancel anytime.
+              Endless entertainment starts at just ₹ 111. Cancel anytime.
             </Typography.Subtitle>
 
             <Email />
