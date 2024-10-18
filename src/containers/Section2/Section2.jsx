@@ -6,13 +6,12 @@ function Section2() {
   return (
     <div>
       <TwoColLayout
-        mainText="Enjoy on your TV"
-        subtext="Watch on smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
-          players and more."
+        mainText="Enjoy Entertainment on Any Screen"
+        subtext="Watch on a variety of devices like smart TVs, gaming consoles, streaming devices, and more."
         media={
           <Section2Media
             imagePath="/assets/tv.png"
-            videoPath="/assets/video-tv-in-0819.m4v"
+            videoPath="/public/assets/invideo-ai-1080 Welcome to [Your Movie Website] 2024-10-17 (online-video-cutter.com).mp4"
           />
         }
       />
