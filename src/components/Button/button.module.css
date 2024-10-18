@@ -1,5 +1,5 @@
 .button {
-  background-color: rgb(233, 1, 1);
+  background-color: #e94057;
   color: white;
   width: 5.2rem;
   height: 2.2rem;
@@ -10,7 +10,7 @@
 }
 
 .button:hover {
-  background-color: rgba(233, 1, 1, 0.8);
+  background-color: #f06277;
   cursor: pointer;
 }
 
