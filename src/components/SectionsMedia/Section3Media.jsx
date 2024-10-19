@@ -26,7 +26,7 @@ function Section3Media() {
         <div className={styles.gifContainer}>
           <img
             className={styles.gifImage}
-            src="/assets/download-icon.gif"
+            src="assets/db0ntgz-623acc38-7a2d-4dd2-901a-c78c88403d62.gif"
             alt="animation-gif"
           />
         </div>
