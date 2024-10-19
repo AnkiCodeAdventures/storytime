@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <Typography.Caption style={{ color: "rgb(175 175 175)" }}>
-        Questions? Call <a href="#">000-800-919-1694</a>
+        Questions? Call <a href="#">+91 8965222276</a>
       </Typography.Caption>
       <ul className={styles.listContainer}>
         <li>
@@ -81,13 +81,13 @@ function Footer() {
         </li>
         <li>
           <a href="#">
-            <Typography.SubCaption>Only on Netflix</Typography.SubCaption>
+            <Typography.SubCaption>Only on Storytime</Typography.SubCaption>
           </a>
         </li>
       </ul>
       <LanguageOption />
       <Typography.SubCaption style={{ paddingTop: "20px" }}>
-        Netflix India
+        Storytime
       </Typography.SubCaption>
     </footer>
   );
