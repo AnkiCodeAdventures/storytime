@@ -5,13 +5,10 @@ function Section5() {
   return (
     <div>
       <TwoColLayout
-        mainText="Create profiles for kids"
-        subtext="Send children on adventures with their favourite characters in a space made just for them—free with your membership."
+        mainText="Create Profiles for Kids"
+        subtext="Give your children their own space with content tailored just for them, and let them enjoy shows and movies with their favorite characters."
         media={
-          <img
-            style={{ width: "100%" }}
-            src="/assets/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png"
-          />
+          <img style={{ width: "100%" }} src="/public/assets/image (1).png" />
         }
         reverse
       />
