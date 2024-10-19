@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <Typography.Caption style={{ color: "rgb(175 175 175)" }}>
-        Questions? Call <a href="#">+91 8965222276</a>
+        Issues? Ring <a href="#">+91 8965222276</a>
       </Typography.Caption>
       <ul className={styles.listContainer}>
         <li>
@@ -16,37 +16,7 @@ function Footer() {
         </li>
         <li>
           <a href="#">
-            <Typography.SubCaption>Help Centre</Typography.SubCaption>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <Typography.SubCaption>Account</Typography.SubCaption>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <Typography.SubCaption>Media Centre</Typography.SubCaption>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <Typography.SubCaption>Investor Relations</Typography.SubCaption>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <Typography.SubCaption>Jobs</Typography.SubCaption>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <Typography.SubCaption>Ways to Watch</Typography.SubCaption>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <Typography.SubCaption>Terms of Use</Typography.SubCaption>
+            <Typography.SubCaption>Community Centre</Typography.SubCaption>
           </a>
         </li>
         <li>
@@ -56,12 +26,42 @@ function Footer() {
         </li>
         <li>
           <a href="#">
+            <Typography.SubCaption>Media Unit</Typography.SubCaption>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <Typography.SubCaption>Company Policy</Typography.SubCaption>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <Typography.SubCaption>Careers</Typography.SubCaption>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <Typography.SubCaption>Media Support</Typography.SubCaption>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <Typography.SubCaption>Usage Rights</Typography.SubCaption>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <Typography.SubCaption>Account</Typography.SubCaption>
+          </a>
+        </li>
+        <li>
+          <a href="#">
             <Typography.SubCaption>Cookie Preferences</Typography.SubCaption>
           </a>
         </li>
         <li>
           <a href="#">
-            <Typography.SubCaption>Corporate Information</Typography.SubCaption>
+            <Typography.SubCaption>About Us</Typography.SubCaption>
           </a>
         </li>
         <li>
@@ -71,17 +71,17 @@ function Footer() {
         </li>
         <li>
           <a href="#">
-            <Typography.SubCaption>Speed Test</Typography.SubCaption>
+            <Typography.SubCaption>User Information</Typography.SubCaption>
           </a>
         </li>
         <li>
           <a href="#">
-            <Typography.SubCaption>Legal Notices</Typography.SubCaption>
+            <Typography.SubCaption>Entertainment Info</Typography.SubCaption>
           </a>
         </li>
         <li>
           <a href="#">
-            <Typography.SubCaption>Only on Storytime</Typography.SubCaption>
+            <Typography.SubCaption>Watch on Storytime</Typography.SubCaption>
           </a>
         </li>
       </ul>
