@@ -6,7 +6,7 @@ function Email() {
   return (
     <div className={styles.emailBlock}>
       <Typography.Text>
-        Ready to watch? Enter your email to create or restart your membership.
+        Dive into a world of captivating stories and unforgettable characters.
       </Typography.Text>
       <div className={styles.emailContainer}>
         <input

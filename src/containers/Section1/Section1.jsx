@@ -12,11 +12,11 @@ function Section1() {
         <main className={styles.main}>
           <div className={styles.membershipContainer}>
             <Typography.MainHeading>
-              Laughter. Tears. Thrill. Get it all on Storytime.
+              Suprise. Amaze. Laughter. Get it all on Storytime.
             </Typography.MainHeading>
 
             <Typography.Subtitle>
-              Endless entertainment starts at just ₹ 111. Cancel anytime.
+              Welcome to Storytime: Where Every Tale Comes Alive
             </Typography.Subtitle>
 
             <Email />
