@@ -6,8 +6,8 @@ function Section3() {
   return (
     <div>
       <TwoColLayout
-        mainText="Download your shows to watch offline"
-        subtext="Save your favourites easily and always have something to watch."
+        mainText="Download to Watch Offline"
+        subtext="Easily save your favorite shows and movies so you can enjoy them without needing an internet connection."
         media={<Section3Media />}
         reverse
       />

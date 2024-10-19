@@ -6,13 +6,15 @@ function Section4() {
   return (
     <div>
       <TwoColLayout
-        mainText="Watch everywhere"
-        subtext="Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV."
+        mainText="Watch on Any Device, Anywhere"
+        subtext="Stream a limitless collection of TV shows and movies on your smartphone, tablet, laptop, or TV.
+
+"
         media={
           <Section2Media
-            imagePath="/assets/device-pile-in.png"
-            videoPath="/assets/video-devices-in.m4v"
-            videoStyle={{ width: "64.2%", left: "16.2%", top: "8%" }}
+            imagePath="/public/assets/output__5_-removebg-preview.png"
+            videoPath="/public/assets/8115567-hd_1920_1080_25fps.mp4"
+            videoStyle={{ width: "43.2%", left: "28.2%", top: "18%" }}
           />
         }
       />

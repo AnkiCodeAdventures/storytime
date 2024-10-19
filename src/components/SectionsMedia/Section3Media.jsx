@@ -6,19 +6,19 @@ function Section3Media() {
     <div className={styles.animationContainer}>
       <img
         className={styles.animationImage}
-        src="/assets/mobile-0819.jpg"
+        src="/public/assets/mobile.jpg"
         alt="girl image"
       />
       <div className={styles.animationBox}>
         <div className={styles.boxshotContainer}>
           <img
             className={styles.boxshotImage}
-            src="/assets/boxshot.png"
+            src="/public/assets/lion.jpg"
             alt="animation"
           />
         </div>
         <div className={styles.animationTextContainer}>
-          <Typography.Caption>Stranger Things</Typography.Caption>
+          <Typography.Caption>Story of a Lion</Typography.Caption>
           <Typography.SubCaption style={{ color: "#0071eb" }}>
             Downloading...
           </Typography.SubCaption>

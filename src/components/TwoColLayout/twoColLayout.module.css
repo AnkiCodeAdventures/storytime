@@ -7,6 +7,7 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
 }
 
 .textContainer {
@@ -16,7 +17,7 @@
 
 .mediaContainer {
   position: relative;
-  flex-basis: 100%;
+  flex-basis: 80%;
 }
 
 .tvContainer {
