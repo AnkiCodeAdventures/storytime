@@ -46,7 +46,7 @@ function Faq() {
           <br />
           You can also download your favourite shows with the iOS, Android, or
           Windows 10 app. Use downloads to watch while you&apos;re on the go and
-          without an internet connection. Take Netflix with you anywhere.
+          without an internet connection. Take Storytime with you anywhere.
           <br />
           <br />
         </Accordion>
