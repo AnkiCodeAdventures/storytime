@@ -9,11 +9,7 @@ function Nav() {
   return (
     <nav className={styles.navigation}>
       <div className={styles.logo}>
-        <img
-          className={styles.image}
-          src="/public/assets/netflix-inspired-logo (1).svg"
-          alt="logo"
-        />
+        <img className={styles.image} src="assets/storytime.svg" alt="logo" />
       </div>
       <div className={styles.buttonsContainer}>
         <LanguageOption />

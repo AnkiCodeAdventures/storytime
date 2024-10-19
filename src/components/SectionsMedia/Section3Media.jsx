@@ -6,14 +6,14 @@ function Section3Media() {
     <div className={styles.animationContainer}>
       <img
         className={styles.animationImage}
-        src="/public/assets/mobile.jpg"
+        src="assets/mobile.jpg"
         alt="girl image"
       />
       <div className={styles.animationBox}>
         <div className={styles.boxshotContainer}>
           <img
             className={styles.boxshotImage}
-            src="/public/assets/lion.jpg"
+            src="assets/lion.jpg"
             alt="animation"
           />
         </div>

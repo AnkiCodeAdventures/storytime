@@ -12,8 +12,8 @@ function Section4() {
 "
         media={
           <Section2Media
-            imagePath="/public/assets/output__5_-removebg-preview.png"
-            videoPath="/public/assets/8115567-hd_1920_1080_25fps.mp4"
+            imagePath="assets/output__5_-removebg-preview.png"
+            videoPath="assets/8115567-hd_1920_1080_25fps.mp4"
             videoStyle={{ width: "43.2%", left: "28.2%", top: "18%" }}
           />
         }
