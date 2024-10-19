@@ -12,7 +12,7 @@ function Nav() {
         <img
           className={styles.image}
           src="/public/assets/netflix-inspired-logo (1).svg"
-          alt="Netflix logo"
+          alt="logo"
         />
       </div>
       <div className={styles.buttonsContainer}>

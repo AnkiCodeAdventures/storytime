@@ -13,11 +13,13 @@ function Faq() {
             Frequently Asked Questions
           </Typography.MainHeading>
         </div>
-        <Accordion question="What is Netflix?">
+        <Accordion question="What is Storytime?">
           <br />
-          Netflix is a streaming service that offers a wide variety of
-          award-winning TV shows, movies, anime, documentaries and more – on
-          thousands of internet-connected devices.
+          Storytime offers a vast selection of award-winning TV shows, movies,
+          documentaries, anime, and more—all accessible on internet-enabled
+          devices. You can watch as much as you want, when you want, without
+          ads, for a low monthly fee. New content is added every week, so
+          there’s always something fresh to discover.
           <br />
           <br />
           You can watch as much as you want, whenever you want, without a single
@@ -26,21 +28,20 @@ function Faq() {
           <br />
           <br />
         </Accordion>
-        <Accordion question="How much does Netflix cost?">
+        <Accordion question="How Much Does Storytime Cost?">
           <br />
-          Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
-          streaming device, all for one fixed monthly fee. Plans range from ₹
-          149 to ₹ 649 a month. No extra costs, no contracts.
+          Watch Storytime on a smartphone, tablet, smart TV, or laptop with a
+          variety of affordable monthly plans starting from ₹111 to ₹649. There
+          are no hidden fees or long-term contracts.
           <br />
           <br />
         </Accordion>
-        <Accordion question="Where can I watch?">
+        <Accordion question="WWhere Can I Watch Storytime?">
           <br />
-          Watch anywhere, anytime. Sign in with your Netflix account to watch
-          instantly on the web at netflix.com from your personal computer or on
-          any internet-connected device that offers the Netflix app, including
-          smart TVs, smartphones, tablets, streaming media players and game
-          consoles.
+          Stream Storytime on-demand anywhere, anytime. Sign in on the web or
+          through an app on your smart TV, smartphone, tablet, or other
+          streaming devices. You can even download shows to watch offline when
+          you’re on the move.
           <br />
           <br />
           You can also download your favourite shows with the iOS, Android, or
@@ -49,27 +50,28 @@ function Faq() {
           <br />
           <br />
         </Accordion>
-        <Accordion question="How do I cancel?">
+        <Accordion question="How Do I Cancel?">
           <br />
-          Netflix is flexible. There are no annoying contracts and no
-          commitments. You can easily cancel your account online in two clicks.
-          There are no cancellation fees – start or stop your account anytime.
-          <br />
-          <br />
-        </Accordion>
-        <Accordion question="What can I watch on Netflix?">
-          <br />
-          Netflix has an extensive library of feature films, documentaries, TV
-          shows, anime, award-winning Netflix originals, and more. Watch as much
-          as you want, anytime you want.
+          Storytime comes with no contracts or obligations. You can cancel your
+          subscription online at any time with just a few clicks—no cancellation
+          fees, no hassle.
           <br />
           <br />
         </Accordion>
-        <Accordion question="Is Netflix good for kids?">
+        <Accordion question="What Content Can I Access on Storytime?">
           <br />
-          The Netflix Kids experience is included in your membership to give
-          parents control while kids enjoy family-friendly TV shows and films in
-          their own space.
+          Enjoy a huge collection of films, documentaries, TV shows, anime, and
+          exclusive originals on Storytime. Watch as much as you like, whenever
+          you like.
+          <br />
+          <br />
+        </Accordion>
+        <Accordion question="Is Storytime Kid-Friendly?">
+          <br />
+          Storytime offers a special kid&apos;s section, giving parents control
+          over what their children watch. Kid&apos;s profiles feature
+          family-friendly content, and parental controls allow you to restrict
+          content based on maturity levels or block specific shows.
           <br />
           <br />
           Kids profiles come with PIN-protected parental controls that let you
